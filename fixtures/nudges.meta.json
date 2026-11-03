@@ -1,0 +1,8 @@
+{
+  "model": "claude-opus-5-5",
+  "recorded_at": "2026-11-03",
+  "input_tokens": 6073,
+  "output_tokens": 2038,
+  "cost_usd": 0.0893,
+  "note": "One real Claude call on the exact prompt src/nudges.ts builds for this fixture. npm start replays it."
+}

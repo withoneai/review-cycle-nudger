@@ -1,0 +1,106 @@
+{
+  "nudges": [
+    {
+      "manager": "Dana Ortiz",
+      "opener": "Your reviews are due on 2026-11-07, and 2 of them are still empty. Each one below has a head start taken from that person's goals doc.",
+      "reports": [
+        {
+          "reviewId": "rv-01",
+          "startHere": "You could open with onboarding: the median is now 8 days across 14 clinics, against a target of under 10, and then cover the Epic rollout (3 clinics live of 5) and the weekly pairing with Jonah.",
+          "evidence": [
+            {
+              "goal": "Cut onboarding time for new clinics",
+              "landed": "hit",
+              "quote": "Median is 8 days across the 14 clinics onboarded since August."
+            },
+            {
+              "goal": "Own the Epic integration rollout",
+              "landed": "partly",
+              "quote": "3 clinics live."
+            },
+            {
+              "goal": "Mentor one new engineer",
+              "landed": "hit",
+              "quote": "Paired with Jonah weekly since September."
+            }
+          ]
+        },
+        {
+          "reviewId": "rv-02",
+          "startHere": "You could start with the billing migration (212 clinics moved with 0 double charges) and then note that invoice tickets are down 12% against a 30% target.",
+          "evidence": [
+            {
+              "goal": "Billing migration off the legacy processor",
+              "landed": "hit",
+              "quote": "212 clinics migrated, 0 double charges, 3 failed cards caught by the dry-run and fixed before cutover."
+            },
+            {
+              "goal": "Reduce invoice support tickets",
+              "landed": "partly",
+              "quote": "Down 12% so far."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "manager": "Raj Mehta",
+      "opener": "Your review is due on 2026-11-07, and 1 is still empty. The one below has a head start taken from the goals doc.",
+      "reports": [
+        {
+          "reviewId": "rv-04",
+          "startHere": "You could open with the analytics dashboard shipping to all clinics on Aug 18, then cover booking page load (now 2.1s, down from 3.4s, against a 1.5s target) and the runbook, which was not started.",
+          "evidence": [
+            {
+              "goal": "Launch the clinic analytics dashboard",
+              "landed": "hit",
+              "quote": "Shipped to all clinics on Aug 18."
+            },
+            {
+              "goal": "Booking page p95 load under 1.5s",
+              "landed": "partly",
+              "quote": "Now 2.1s, down from 3.4s."
+            },
+            {
+              "goal": "On-call runbook for the booking service",
+              "landed": "missed",
+              "quote": "Not started."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "manager": "Ines Laurent",
+      "opener": "You have 2 reviews still empty: one due on 2026-11-06 and one due on 2026-11-07. Each one below has a head start where a goals doc was linked.",
+      "reports": [
+        {
+          "reviewId": "rv-06",
+          "startHere": "No goals doc is linked on this review, so you could start from the \"What went well\" section instead.",
+          "evidence": []
+        },
+        {
+          "reviewId": "rv-07",
+          "startHere": "This one is due first (2026-11-06). You could open with renewals: 41 of 44 clinics renewed (93%) against a 90% goal, then cover expansion ($84k closed of $120k) and the playbook, which is drafted but not yet reviewed.",
+          "evidence": [
+            {
+              "goal": "Renewals",
+              "landed": "hit",
+              "quote": "93% through October, 41 of 44 clinics renewed."
+            },
+            {
+              "goal": "Expansion ARR",
+              "landed": "partly",
+              "quote": "$84k closed."
+            },
+            {
+              "goal": "Renewal playbook in Notion",
+              "landed": "partly",
+              "quote": "drafted, not reviewed by anyone yet."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

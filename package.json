@@ -1,0 +1,28 @@
+{
+  "name": "review-cycle-nudger",
+  "version": "1.0.0",
+  "description": "An AI agent that finds the performance reviews still empty a few days before the deadline, reads each report's own goals doc in Notion, and drafts the nudge each manager should get with every quoted goal checked against the doc. Posts one digest to a people-ops Slack channel; never DMs a manager. Built on One.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check": "tsx src/check.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/*.test.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0",
+    "@withone/sdk": "^0.4.0",
+    "dotenv": "^16.4.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.3"
+  },
+  "license": "MIT"
+}
